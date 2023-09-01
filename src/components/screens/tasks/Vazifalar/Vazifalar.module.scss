@@ -1,0 +1,28 @@
+.hide {
+	display: none;
+}
+
+.vazifalar {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	max-width: 280px;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		row-gap: 12px;
+		li {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 30px;
+			div {
+				width: 30px;
+			}
+		}
+	}
+}

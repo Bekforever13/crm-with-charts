@@ -1,0 +1,22 @@
+.statistics {
+	display: flex;
+	align-items: center;
+	padding: 12px 20px;
+	background-color: #fff;
+	border-radius: 16px;
+	gap: 16px;
+	min-width: 200px;
+
+	div {
+		span {
+			color: #101828;
+			font-size: 24px;
+			font-weight: 700;
+		}
+		p {
+			font-size: 14px;
+			font-weight: 500;
+			color: var(--grayColor);
+		}
+	}
+}

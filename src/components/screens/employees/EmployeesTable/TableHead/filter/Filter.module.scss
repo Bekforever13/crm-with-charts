@@ -1,0 +1,46 @@
+.hide {
+	display: none;
+}
+
+.filter {
+	display: block;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 12px;
+
+	h2 {
+		margin-bottom: 12px;
+	}
+	div {
+		width: 100%;
+	}
+
+	.selects {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 24px;
+	}
+	.buttons {
+		display: flex;
+		align-items: center;
+		column-gap: 24px;
+		button {
+			width: 100%;
+			&.cleaning {
+				border: 1px solid var(--primaryColor);
+				color: var(--primaryColor);
+			}
+
+			&.filtering {
+				background-color: var(--primaryColor);
+				color: #fff;
+			}
+		}
+	}
+}

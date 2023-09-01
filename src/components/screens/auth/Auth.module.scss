@@ -1,0 +1,31 @@
+.auth {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	& > * {
+		flex: 1;
+	}
+
+	.logo_text_wrapper {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		background-color: var(--primaryColor);
+		text-align: center;
+		row-gap: 32px;
+
+		img {
+			width: 320px;
+		}
+		p {
+			width: 560px;
+			font-size: 28px;
+			font-weight: 500;
+			color: #fff;
+		}
+	}
+}

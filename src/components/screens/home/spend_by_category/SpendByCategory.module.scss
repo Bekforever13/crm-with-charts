@@ -1,0 +1,119 @@
+.doughnut {
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 50px;
+	row-gap: 20px;
+	.head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	ul {
+		padding: 0 30px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 24px;
+
+		li {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			font-size: 12px;
+			font-weight: 600;
+			color: var(--grayColor);
+
+			span {
+				color: var(--textColor);
+				font-size: 14px;
+				font-weight: 600;
+			}
+
+			&:nth-child(1) {
+				position: relative;
+				&::before {
+					position: absolute;
+					content: '';
+					width: 12px;
+					height: 12px;
+					border-radius: 50%;
+					background-color: rgba(255, 99, 132, 0.2);
+					border: 1px solid rgba(255, 99, 132, 1);
+					top: 3px;
+					left: -30px;
+				}
+			}
+			&:nth-child(2) {
+				position: relative;
+				&::before {
+					position: absolute;
+					content: '';
+					width: 12px;
+					height: 12px;
+					border-radius: 50%;
+					background-color: rgba(54, 162, 235, 0.2);
+					border: 1px solid rgba(54, 162, 235, 1);
+					top: 3px;
+					left: -30px;
+				}
+			}
+			&:nth-child(3) {
+				position: relative;
+				&::before {
+					position: absolute;
+					content: '';
+					width: 12px;
+					height: 12px;
+					border-radius: 50%;
+					background-color: rgba(255, 206, 86, 0.2);
+					border: 1px solid rgba(255, 206, 86, 1);
+					top: 3px;
+					left: -30px;
+				}
+			}
+			&:nth-child(4) {
+				position: relative;
+				&::before {
+					position: absolute;
+					content: '';
+					width: 12px;
+					height: 12px;
+					border-radius: 50%;
+					background-color: rgba(75, 192, 192, 0.2);
+					border: 1px solid rgba(75, 192, 192, 1);
+					top: 3px;
+					left: -30px;
+				}
+			}
+			&:nth-child(5) {
+				position: relative;
+				&::before {
+					position: absolute;
+					content: '';
+					width: 12px;
+					height: 12px;
+					border-radius: 50%;
+					background-color: rgba(153, 102, 255, 0.2);
+					border: 1px solid rgba(153, 102, 255, 1);
+					top: 3px;
+					left: -30px;
+				}
+			}
+			&:nth-child(6) {
+				position: relative;
+				&::before {
+					position: absolute;
+					content: '';
+					width: 12px;
+					height: 12px;
+					border-radius: 50%;
+					background-color: rgba(255, 159, 64, 0.2);
+					border: 1px solid rgba(255, 159, 64, 1);
+					top: 3px;
+					left: -30px;
+				}
+			}
+		}
+	}
+}

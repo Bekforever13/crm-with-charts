@@ -1,0 +1,7 @@
+export * from './auth/Auth'
+export * from './employees/Employees'
+export * from './home/Home'
+export * from './sozlamalar/Sozlamalar'
+export * from './tasks/Tasks'
+export * from './user_info/UserInfo'
+export * from './user_kpi/UserKPI'

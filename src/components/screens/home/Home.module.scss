@@ -1,0 +1,25 @@
+.home {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	gap: 30px;
+	position: relative;
+	
+	.left {
+		width: 750px;
+	}
+	.right {
+		width: 400px;
+		position: relative;
+		transform: translateY(15px);
+	}
+
+	.left,
+	.right {
+		margin-top: 150px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+}

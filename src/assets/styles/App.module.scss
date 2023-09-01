@@ -1,0 +1,10 @@
+.app {
+	--primaryColor: #4623e9;
+	--textColor: #1c1e23;
+	--grayColor: #98A2B3;
+}
+
+html {
+	background-color: #F2F4F7;
+	color: var(--textColor);
+}

@@ -1,0 +1,27 @@
+.table {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	row-gap: 4px;
+	column-gap: 24px;
+	height: 250px;
+	flex-wrap: wrap;
+	background-color: #fff;
+	border-radius: 12px;
+	padding: 20px;
+	width: 100%;
+
+	li {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 400px;
+		gap: 16px;
+		padding: 8px 12px;
+		font-size: 16px;
+		font-weight: 500;
+		span {
+			color: var(--grayColor);
+		}
+	}
+}

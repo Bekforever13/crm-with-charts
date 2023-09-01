@@ -1,0 +1,48 @@
+.balance {
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 24px;
+	row-gap: 24px;
+
+	.head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.statistic {
+		display: flex;
+		flex-direction: column;
+		div {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+
+			.money {
+				font-size: 32px;
+				font-weight: 700;
+				letter-spacing: -0.96px;
+			}
+
+			.usd {
+				color: var(--grayColor);
+			}
+		}
+		p {
+			color: var(--grayColor);
+			font-size: 12px;
+			font-weight: 600;
+		}
+	}
+	.buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+
+		& > * {
+			width: 100%;
+		}
+	}
+}

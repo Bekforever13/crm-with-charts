@@ -1,0 +1,25 @@
+.actions {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	.notification {
+		font-size: 24px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		cursor: pointer;
+	}
+	.user {
+		display: flex;
+		align-items: center;
+		white-space: nowrap;
+		gap: 10px;
+
+		span {
+			font-size: 18px;
+			font-weight: 500;
+		}
+	}
+}

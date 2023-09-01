@@ -1,0 +1,15 @@
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	button {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		color: #fff;
+		&.button {
+			background-color: var(--primaryColor);
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.employees {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	padding: 0 20px;
+
+	.wrapper {
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		width: 100%;
+		gap: 24px;
+	}
+}

@@ -1,0 +1,20 @@
+.chart {
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+	background-color: #fff;
+	padding: 20px;
+	width: 100%;
+
+	.head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.bar {
+		background-color: #fff;
+		border-radius: 10px;
+		padding: 20px;
+		width: 100%;
+	}
+}

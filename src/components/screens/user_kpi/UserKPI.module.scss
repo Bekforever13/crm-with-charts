@@ -1,0 +1,31 @@
+.user_kpi {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	padding: 20px;
+
+	.statistics {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		gap: 24px;
+	}
+	.second {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 24px;
+
+	}
+	.charts {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 24px;
+		&:nth-child(1) {
+			min-width: 800px;
+		}
+	}
+
+}

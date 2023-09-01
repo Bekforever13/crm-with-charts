@@ -1,0 +1,33 @@
+.info {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+	background-color: #fff;
+	border-radius: 12px;
+	padding: 20px;
+
+	.table {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		min-width: 600px;
+		row-gap: 4px;
+
+		li {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			gap: 16px;
+			padding: 8px 12px;
+			font-size: 16px;
+			font-weight: 500;
+			&:nth-child(odd) {
+				background-color: #F9FAFB;
+			}
+			span {
+				color: var(--grayColor);
+			}
+		}
+	}
+}
